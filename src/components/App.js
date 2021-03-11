@@ -1,11 +1,19 @@
-import React from 'react'
 
-const App = () => {
-    return (
-        <div>
-            <h2>Hello friends</h2>
-        </div>
-    )
+import React, { Component } from 'react';
+import SearchBar from './SearchBar';
+
+
+
+
+
+class App extends Component {
+    render() {
+        return (
+            <div className="ui container">
+                <SearchBar />
+            </div>
+        )
+    }
 }
 
-export default App
+export default App;
