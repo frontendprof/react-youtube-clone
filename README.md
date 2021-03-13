@@ -39,5 +39,9 @@
 ### VideoList component
 
 1. Rendering out all video props
+2. Passing them to VideoItem component as props
 
 ### VideoItem component
+
+1. Rendering out each video thumbnails
+2. Styling a list via VideoItem.css
