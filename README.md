@@ -13,13 +13,16 @@
 
 1. App component
 2. SearchBar component
+3. VideoList component
+4. VideoItem component
 
 ### App component
 
 1. Rendering search bar component as child component
 2. Import the file in which axios instance located
 3. Pass the fetched data as props to searchbar component
-4. Updating state with the fetched data 
+4. Updating state with the fetched data
+5. Passing all videos to VideoList component as props
 
 ### SearchBar component
 
@@ -32,3 +35,9 @@
 
 1. Accessing the Youtube API
 2. Creating axios instance in a separate file then exporting it
+
+### VideoList component
+
+1. Rendering out all video props
+
+### VideoItem component

@@ -3,6 +3,7 @@ import React, { Component } from 'react';
 import SearchBar from './SearchBar';
 
 import youtube from "../apis/youtube";
+import VideoList from './VideoList';
 
 
 
@@ -25,7 +26,7 @@ class App extends Component {
         return (
             <div className="ui container">
                 <SearchBar onFormSubmit={this.onTermSubmit} />
-                There are {this.state.videos.length} videos found.
+                <VideoList videos={this.state.videos} />
             </div>
         )
     }
