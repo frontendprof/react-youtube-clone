@@ -17,9 +17,18 @@
 ### App component
 
 1. Rendering search bar component as child component
+2. Import the file in which axios instance located
+3. Pass the fetched data as props to searchbar component
+4. Updating state with the fetched data 
 
 ### SearchBar component
 
 1. Creating input form from semantic
 2. Wiring it up to onChange event handler, and to onInputChange event callback respectively
 3. Handling default form submit
+4. Render term state in passed props
+
+### Data Loading
+
+1. Accessing the Youtube API
+2. Creating axios instance in a separate file then exporting it
